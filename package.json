@@ -11,16 +11,36 @@
     "./suppression": "./src/suppression.js",
     "./host-lock": "./src/host-lock.js"
   },
-  "files": ["src", "hooks", "README.md", "INCIDENTS.md", "LICENSE"],
+  "files": [
+    "src",
+    "hooks",
+    "README.md",
+    "INCIDENTS.md",
+    "LICENSE"
+  ],
   "scripts": {
-    "test": "node --test test/"
+    "test": "node --test \"test/*.test.js\""
   },
   "keywords": [
-    "agent", "llm", "guardrails", "outreach", "email", "rate-limit",
-    "suppression", "claude-code", "hooks", "blast-radius", "safety"
+    "agent",
+    "llm",
+    "guardrails",
+    "outreach",
+    "email",
+    "rate-limit",
+    "suppression",
+    "claude-code",
+    "hooks",
+    "blast-radius",
+    "safety"
   ],
   "license": "MIT",
   "author": "Daniel Armstrong",
-  "engines": { "node": ">=20" },
-  "repository": { "type": "git", "url": "git+https://github.com/dandevteam-del/agent-send-guard.git" }
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandevteam-del/agent-send-guard.git"
+  }
 }
